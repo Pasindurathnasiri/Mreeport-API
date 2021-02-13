@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/MReportAPIMgmtService/apis/echo-api",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mreportserver/databases/MReport",
+      "type": "mssql.azure",
+      "connectionId": "MReportAPIContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
